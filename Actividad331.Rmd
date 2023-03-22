@@ -34,19 +34,20 @@ c5= "#db524f"
 
 ## **Paso 1**
 
-En un formato  **Rmd** deberan construir un documento que contenga las principales caracteristicas de la distribución asignada **a cada estudiante**
+En un formato  **A1**  deberán construir un poster  que contenga las principales características de la distribución asignada **a cada estudiante**
 
+<br/>
 
+### **Ejemplo poster en Rmd**
 ```{r, echo=FALSE, out.width="100%", fig.align = "center"}
-knitr::include_graphics("img/blog1.png")
+knitr::include_graphics("img/poster1.png")
 ```
 
-**Nota**:  
-* R posee librerias para la construcción de posters como : posterdown, 
+### **Nota**
+
+* R posee librerias para la construcción de posters como : `posterdown`, `drposter`
+
 * [Qué es un poster científico](https://es.wikipedia.org/wiki/P%C3%B3ster_cient%C3%ADfico)
-
-El encabezado el Rmd seria :
-
 
 <br/><br/>
 
@@ -68,9 +69,9 @@ Nota: Esta actividad será realizada el dia 10 de abril y los pares se asignará
 * Características principales : f(x), F(x), E[X], V[X], representación gráfica....
 * Ejemplo con enunciado, solución y sintaxis en R
 * Aplicaciones en el campo de las ingeniería, ciencias, economía, salud...
-* Relaciones entre distribuciones nivariadas. [(Artículo)](http://www.stat.rice.edu/~dobelman/courses/texts/leemis.distributions.2008amstat.pdf)
+* Relaciones entre distribuciones univariadas. [(Artículo)](http://www.stat.rice.edu/~dobelman/courses/texts/leemis.distributions.2008amstat.pdf)
 * Referencias bibliográficas 
-* Formato A1
+
 
 <br/><br/><br/>
 
@@ -92,7 +93,7 @@ Nota: Esta actividad será realizada el dia 10 de abril y los pares se asignará
 | 15         | Gumbel	          | 16     | logistic              |
 
 
-La asignación se realizará por sorteo en sesión de clase el dia lunes 25 de septiembre de 2022. A los estudiantes no presentes el profesor realizará la asignatura de la distribución
+La asignación se realizará por sorteo en sesión de clase el dia lunes 10  de abril  de 2023. A los estudiantes no presentes el profesor realizará la asignatura de la distribución
 
 <br/><br/>
 

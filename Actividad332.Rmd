@@ -202,7 +202,10 @@ Ejercicios tomados de Navidi(2006)
 |	49	|	Unigarro Pabon,Juan Daniel	|	2	|	4	|
 
 
+</br></br>
 
+### **Entregable**
 
+* archivo pdf con el contenido solicitado y anexo código R
 
 
