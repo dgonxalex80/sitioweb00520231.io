@@ -24,34 +24,41 @@ c5= "#db524f"
 
 ![](img/banner3.png)
 
-#  **Descripción actividad ** 
+##  **Descripción actividad ** 
 
 <br/><br/>
 
-# **Construcción del Poster**
+## **Construcción del Poster**
 
 <br/>
 
-## **Paso 1**
+### **Paso 1**
 
-En un formato  **A1**  deberán construir un poster  que contenga las principales características de la distribución asignada **a cada estudiante**
+**R** posee librerias para la construcción de posters como : `posterdown`, `drposter`, las cuales despues de ser instaladas generan una plantilla que se puede obtener de la siguiente manera:
 
 <br/>
+**File** / **New File** / **Rmarkdown** / **From Template** / Posterdown HTML {posterdown}
 
-### **Ejemplo poster en Rmd**
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("img/poster4.png")
+```
+
+<br/><br/>
+
+#### **Ejemplo poster en Rmd**
+
 ```{r, echo=FALSE, out.width="100%", fig.align = "center"}
 knitr::include_graphics("img/poster1.png")
 ```
 
-### **Nota**
-
-* R posee librerias para la construcción de posters como : `posterdown`, `drposter`
+#### **Nota**
 
 * [Qué es un poster científico](https://es.wikipedia.org/wiki/P%C3%B3ster_cient%C3%ADfico)
+* El poster deberáser construido en  un formato  **A1**  
 
 <br/><br/>
 
-## **Paso 2**
+#### **Paso 2**
 
 Cada estudiante aportará al trabajo realizado por uno de sus compañeros mediante dos contribuciones:
 
@@ -63,7 +70,7 @@ Nota: Esta actividad será realizada el dia 10 de abril y los pares se asignará
 
 <br/><br/>
 
-## **Contenido del Poster**
+### **Contenido del Poster**
 
 * Origen de la distribución
 * Características principales : f(x), F(x), E[X], V[X], representación gráfica....
@@ -97,17 +104,16 @@ La asignación se realizará por sorteo en sesión de clase el dia lunes 10  de 
 
 <br/><br/>
 
-## **Entrega y presentación de posers** 
+### **Entrega y presentación de posters** 
 
-*  Abril12 de 2023
+*  Abril 10 de 2023
+*  Abril  12 de 2023
 
 <br/><br/><br/>
 
-## **Asignación de distribuciones**
+### **Asignación de distribuciones**
 
 <br/>
-
-## **Id estudiante**
 
 ### **Tabla 2 : Asignación de id por estudiante**
 
@@ -167,7 +173,7 @@ La asignación se realizará por sorteo en sesión de clase el dia lunes 10  de 
 
 <br/><br/>
 
-## **Asignación modelo**
+### **Asignación modelo**
 
 ### **Tabla 3 : Asignación de distribución por id**
 
@@ -190,7 +196,7 @@ La asignación se realizará por sorteo en sesión de clase el dia lunes 10  de 
 
 <br/><br/>
 
-**Nota**:
+#### **Nota**:
 
 Como ejemplo da la asignación de los modelos, el **id = 1** corresponde al primer estudiante de la **Tabla 2**  (Pedroza Barrios,Edinson Steve)  al cual le corresponde el **modelo 9** : gamma** de la **Tabla 1**. Lo cual indica que a  le corresponde realizar un poster sobre el modelo gamma
 
