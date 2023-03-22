@@ -796,7 +796,7 @@ c. $P(13\leq X <15)$.
 
 d. $P(X\geq 18)$ . 
 
-e. $E[X] $ y $V[X]$.
+e. $E[X]$ y $V[X]$.
 
 <br/><br/>
 
@@ -810,11 +810,11 @@ pnorm(-0.85, lower.tail = FALSE)
 ```
 
 
-b.Entre z = 0.40 y z = 1.30.  
+b.Entre $z = 0.40$ y $z = 1.30$.  
 
-c. Entre z = -0.30 y z = 0.90. 
+c. Entre $z = -0.30$ y $z = 0.90$. 
 
-d.  Desde z = -1.50 hasta z = -0.45.
+d.  Desde $z = -1.50$ hasta $z = -0.45$.
 
 **Nota**: en cada caso realice un  bosquejo del área que representa la probabilidad
 
@@ -822,13 +822,13 @@ d.  Desde z = -1.50 hasta z = -0.45.
 
 **3. Modelo normal estandar** Para una variable $Z\sim N(0,1)$, determine el área: 
 
-a.	A la izquierda de z = 0.56. 
+a.	A la izquierda de $z = 0.56$. 
 
-b. Entre z = - 2.93 y z = -2.06. 
+b. Entre $z = - 2.93$ y $z = -2.06$. 
 
-c. Entre z = -1.08 y z = 0.70. 
+c. Entre $z = -1.08$ y $z = 0.70$. 
 
-d. Desde z = 0.96 hasta z = 1.62.
+d. Desde $z = 0.96$ hasta $z = 1.62$.
 
 Nota: En cada caso represente gráficamente los valores solicitados
 	
@@ -1060,17 +1060,25 @@ h. $P(3 < X < x) = 0.99$
 
 ## **Taller 334**
 
+<br/>
+
 Modelos especiales - Simulación 
+
+<br/>
 
 **METODO DE MONTECARLO** : Es un método no determinista o estadístico numérico, usado para aproximar expresiones matemáticas complejas y costosas de evaluar con exactitud. El método se llamó así en referencia al Casino de Montecarlo (Mónaco) por ser “la capital del juego de azar”, al ser la ruleta un generador simple de números aleatorios. El nombre y el desarrollo sistemático de los métodos de Montecarlo datan aproximadamente de 1944 y se mejoraron enormemente con el desarrollo de la computadora.  
 
+<br/>
+
 El uso de los métodos de Montecarlo como herramienta de investigación, proviene del trabajo realizado en el desarrollo de la bomba atómica durante la Segunda Guerra Mundial en el Laboratorio Nacional de Los Álamos en EE. UU. Este trabajo conllevaba la simulación de problemas probabilísticos de hidrodinámica concernientes a la difusión de neutrones en el material de fisión. Esta difusión posee un comportamiento eminentemente aleatorio.	(tomado de Wikipedia) 
 
-
+<br/><br/>
 
 **1.** Dos diseños de un circuito de semiconductores están compitiendo entre sí. La duración del primero (en horas) se distribuye exponencialmente con $\lambda=10^{-4}$ y la duración del segundo tiene una distribución lognormal con $\mu=6$ y $\sigma^{2}=5.4$ 
 a. Utilice una muestra simulada de tamaño $1000$ para estimar la probabilidad de que un circuito con el primer diseño dure más que otro con el segundo diseño.
 b. Estime la probabilidad de que un circuito con el primer diseño  dure el doble del tiempo que otro con el segundo diseño.
+
+<br/><br/>
 
 **2.** Se fabrican placas rectangulares cuyas longitudes en pulgadas se distribuyen como $N(2.0; 0.01)$ y cuyos anchos se distribuyen $N(3.0; 0.04)$. Suponga que las longitudes y los anchos son independientes. El área de una placa esta dada por $A=XY$.
 
@@ -1078,12 +1086,15 @@ a. Utilice una muestra simulada de tamaño $1000$ para estimar la media y la var
 b. Estime la probabilidad de que $P(5.9 <A<6.1)$.
 c. Construya una gráfica de distribución normal $(qqplot)$ para el área. ¿El área de una placa sigue una distribución normal?
 
+<br/><br/>
+
 **3.** La duración de un láser (en horas) tiene una distribución lognormal con $\mu=8$ y $\sigma^{2}=2.4$. Dos de estos láser funcionan de forma independiente.
 
 a. Utilice una muestra de tamaño $1000$ para estimar la probabilidad de que la suma de las dos duraciones sea mayor a $20000$ horas.
 b. Estime la probabilidad de que ambos láser duren más de $3000$ horas.
 c. Estime la probabilidad de que ambos láser falle antes de las $10000$ horas.
 
+<br/><br/>
 
 **4.** Un sistema está compuesto por dos subsistemas conectados en serie, como se muestra en la siguiente figura. Cada subsistema consiste en dos componentes conectados en paralelo. El subsistema AB falla cuando no funcionan $A$ y $B$. El subsistema CD falla cuando lo hacen $C$ y $D$. El sistema falla tan pronto como alguno de los dos subsistemas falla. Suponga que los tiempos de vida de los componentes, en meses, tienen las siguientes distribuciones: $A \sim Exp(1)$; $B\sim Exp(0.1)$; $C \sim Exp(0.2)$; $D\sim Exp(0.2)$ 
 \begin{center}
@@ -1097,26 +1108,15 @@ d. Estime la probabilidad de que el sistema funcione más de seis meses.
 e. Estome el percentil $P_{90}$ de los tiempos de vida del sistema.
 f. Estime la probabilidad de que el subsistema AB falle antes de que lo haga el subsistema CD.
 
+<br/>
 
 (Ejercicios tomados de Navidi(2006) Cap.4).
 
+<br/><br/>
 
 ## **Algunas soluciones en R**
 
-```{r, eval=FALSE}
-# Problema 3 Navidi(2006) Cap 4 ------
-X2=rnorm(1000,mean=2.0,sd=0.1)
-Y2=rnorm(1000,mean=3.0,sd=0.2)
-Z2=data.frame(X2,Y2)
-A2=apply(Z2,1,prod)
-mediaA=mean(A2)
-varianzaA=var(A2)
-B2=as.numeric(A2>5.9 & A2<6.1)
-Pro3c=sum(B2)/1000
-hist(A2)
-qqnorm(A2)
-```
-
+<br/>
 
 ```{r, eval=FALSE}
 # Problema 3 Navidi(2006) Cap 4 ------
@@ -1131,6 +1131,24 @@ Pro3c=sum(B2)/1000
 hist(A2)
 qqnorm(A2)
 ```
+
+<br/><br/>
+
+```{r, eval=FALSE}
+# Problema 3 Navidi(2006) Cap 4 ------
+X2=rnorm(1000,mean=2.0,sd=0.1)
+Y2=rnorm(1000,mean=3.0,sd=0.2)
+Z2=data.frame(X2,Y2)
+A2=apply(Z2,1,prod)
+mediaA=mean(A2)
+varianzaA=var(A2)
+B2=as.numeric(A2>5.9 & A2<6.1)
+Pro3c=sum(B2)/1000
+hist(A2)
+qqnorm(A2)
+```
+
+<br/><br/>
 
 
 ```{r, eval=FALSE}
@@ -1155,6 +1173,7 @@ qqline(Z)
 hist(Z)
 ```
 
+<br/><br/>
 
 ```{r, eval=FALSE}
 # problema 9 Navidi(2006) Cap 4 ------
@@ -1186,6 +1205,7 @@ qqnorm(minAB)
 qqline(minAB)
 ```
 
+<br/><br/>
 ```{r, eval=FALSE}
 # Punto 2 Navidi(2006) Cap 4-------------
 X2=rnorm(1000,mean=2.0,sd=0.1)
@@ -1203,9 +1223,6 @@ hist(A2)
 
 <br/><br/><br/>
 
-
-
-<br/><br/><br/>
 
 ## **Formulario**
 
