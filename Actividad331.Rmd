@@ -28,7 +28,7 @@ c5= "#db524f"
 
 <br/><br/>
 
-# **Construcción de un artículo**
+# **Construcción del Poster**
 
 <br/>
 
@@ -41,26 +41,11 @@ En un formato  **Rmd** deberan construir un documento que contenga las principal
 knitr::include_graphics("img/blog1.png")
 ```
 
-**Nota**: para tenerlo disponeble es necesario cargar el paquete **distill**
+**Nota**:  
+* R posee librerias para la construcción de posters como : posterdown, 
+* [Qué es un poster científico](https://es.wikipedia.org/wiki/P%C3%B3ster_cient%C3%ADfico)
 
 El encabezado el Rmd seria :
-
-```{r, eval=FALSE}
----
-title: "Titulo del articulo"
-description: |
-  Descripcion del articulo.
-author:
-  - name: Daniel Enrique Gonzalez Gomez
-date: 2022-09-26
-preview: imagen.png
-output:
-  distill::distill_article:
-    self_contained: false
----
-```
-
-La imagen en formato png corresponde a la imagen que acompaña al articulo
 
 
 <br/><br/>
@@ -71,26 +56,27 @@ Cada estudiante aportará al trabajo realizado por uno de sus compañeros median
 
 * **plus** : realizará por lo menos un aporte que permita mejorar el trabajo sustancialmente y que aun no está claramente incorporado al trabajo
 
-* **delta** : dentro de los elementos contemplados en el trabajo deberá realizar sugerencias que lo potencie para un mejor resultado
+* **delta** : dentro de los elementos contenidos  en el trabajo deberá realizar sugerencias que lo potencie para un mejor resultado
 
+Nota: Esta actividad será realizada el dia 10 de abril y los pares se asignarán en la misma sesión.
 
 <br/><br/>
 
-## **Contenido del artículo**
+## **Contenido del Poster**
 
 * Origen de la distribución
 * Características principales : f(x), F(x), E[X], V[X], representación gráfica....
 * Ejemplo con enunciado, solución y sintaxis en R
 * Aplicaciones en el campo de las ingeniería, ciencias, economía, salud...
 * Relaciones entre distribuciones nivariadas. [(Artículo)](http://www.stat.rice.edu/~dobelman/courses/texts/leemis.distributions.2008amstat.pdf)
-
 * Referencias bibliográficas 
+* Formato A1
 
 <br/><br/><br/>
 
-## **Tabla 1**
+## **Modelos**
 
-### **Asignación de distribuciones** 
+### **Tabla 1 : Modelos de probabilidad** 
 
 <br/><br/>
 
@@ -110,12 +96,9 @@ La asignación se realizará por sorteo en sesión de clase el dia lunes 25 de s
 
 <br/><br/>
 
-## **Fechas** 
+## **Entrega y presentación de posers** 
 
-* Revisión por parte de pares (paso 2) : septiembre 30  2022
-* Entrega del artículo final : octubre 3 de 2022
-
-Los documentos resultantes serán publicados en un blog para la revisión de todos
+*  Abril12 de 2023
 
 <br/><br/><br/>
 
@@ -123,55 +106,92 @@ Los documentos resultantes serán publicados en un blog para la revisión de tod
 
 <br/>
 
-## **Tabla 2**
+## **Id estudiante**
 
-### **Asignacion de id por estudiante**
+### **Tabla 2 : Asignación de id por estudiante**
 
-<!-- | id | nombre                           |id   | nombre                    | id  | nombre                          | -->
-<!-- |:---|:---------------------------------|:----|:--------------------------|:----|:--------------------------------| -->
-<!-- | 1  |Ramirez Gutierrez Emerson Armando	| 13	|Cordoba Narvaez Alejandro	| 25	|Garces Sanmartin Saray         	| -->
-<!-- | 2	 |Trejos  Marulanda Joan Estibens	  | 14	|Valencia Amaya Santiago	  | 26	|Vasquez Pinilla Jean	            |  -->
-<!-- | 3	 |Guerra Segura Laura	              | 15	|Peña Molina David	        | 27	|Gaitan Zambrano Luis	            | -->
-<!-- | 4	 |Montero Guzman Marlon	            | 16	|Garzon Fajardo Juliana	    | 28	|Betancourth Zapata Maria Camila	| -->
-<!-- | 5	 |Montaño Lopez Santiago	          | 17	|Garcia Polanco Juan	      | 29	|Muñoz Rodriguez Yeison	          | -->
-<!-- | 6	 |Lozano Escobar Juan	              | 18	|Torres Martinez Dana	      | 30	|Torres Murcia Brenda	            | -->
-<!-- | 7	 |Olarte Lopez Camila	              | 19	|Hurtado Bustos Sebastian	  | 31	|Valencia Garcia Juan	            | -->
-<!-- | 8	 |Gonzalez Mejia Isabella	          | 20	|Herran Robledo Alejandra	  | 32	|Vargas Garcia Alvaro	            | -->
-<!-- | 9	 |Quintero Moreno Gabriela	        | 21	|Izquierdo Cabrera Daniel	  | 33	|Valencia Sanchez Jesus	          | -->
-<!-- | 10 |Rico Aragon Gabriel	              | 22	|Andrade Vargas Jose	      | 34	|Caicedo Garcia Heber	            | -->
-<!-- | 11 |Lopez Abella Juan	                | 23	|Lozano Arcila Maria	      | 35	|Marin Hincapie Juan	            | -->
-<!-- | 12 |Valencia Piedrahita Maria	        | 24	|Ruiz Calero Santiago	      |	36  |EscobarIsaac                     | -->
-<!-- |37  | Chapid Willian David             |     |                           |                                       | -->
+|	id	|	nombre	                         |
+|----:|:---------------------------------|
+|	1	|	Pedroza Barrios,Edinson Steve	     |
+|	2	|	Abadia Caballero,Carlos Adolfo	|
+|	3	|	Arcila Avirama,Santiago	|
+|	4	|	Aristizabal Figueroa,Duvan Esteban	|
+|	5	|	Aristizabal Murillo,Juan Sebastian	|
+|	6	|	Bejarano Osorio,Anny Victoria	|
+|	7	|	Benavides Ocampo,Laura Sofia	|
+|	8	|	Bolaños Santacruz,Santiago	|
+|	9	|	Buitrago Orozco,Maria Jose	|
+|	10	|	Cabrera Cardona,Darwin	|
+|	11	|	Chavarriaga Delgadillo,Valentina	|
+|	12	|	Diaz Sarabia,Denisse Valentina	|
+|	13	|	Gomez Cifuentes,Diego Francisco	|
+|	14	|	Gomez Pavajeau,Marianne	|
+|	15	|	Gonzalez Noreña,Juan Pablo	|
+|	16	|	Herrera Viveros,Fulvio Alexander	|
+|	17	|	Martinez Luque,Juan Esteban	|
+|	18	|	Mendez Camelo,Juan Jose	|
+|	19	|	Monroy Lasso,Juan	|
+|	20	|	Montero Guzman,Marlon Damian	|
+|	21	|	Ortega Bastidas,Santiago	|
+|	22	|	Perez Roman,Kevin	|
+|	23	|	Peña,Yony Alejandro	|
+|	24	|	Ramírez Salazar,Katherine	|
+|	25	|	Restrepo Maldonado,Karol Daniela	|
+|	26	|	Rojas Gomez,Maria Camila	|
+|	27	|	Saya Home,Maria Camila	|
+|	28	|	Taborda Madrid,Jhon Alejandro	|
+|	29	|	Valencia Rojas,Sebastian	|
+|	30	|	Vasquez Campiño,Maria Natalia	|
+|	31	|	Vergara Burbano,Fabio	|
+|	32	|	Avila Preciado,Ashley Karoline	|
+|	33	|	Bados Armero,Miguel Angel	|
+|	34	|	Bernal Castillo,Maria Camila	|
+|	35	|	Burgos Alvarez,Brayan Alexander	|
+|	36	|	Castaño Rueda,Allison Tatiana	|
+|	37	|	Duque Gonzalez,Juan Jose	|
+|	38	|	Gomez Paz,Santiago	|
+|	39	|	Gualdron Lopez,Diego Alejandro	|
+|	40	|	Legarda Betancourth,Deivy Hernan	|
+|	41	|	Londoño Arciniegas,Mateo	|
+|	42	|	Muñoz Sanchez,Juan Fernando	|
+|	43	|	Ocoro Perez,Juan Tomas	|
+|	44	|	Ordoñez Loboa,Juan Alejandro	|
+|	45	|	Ordoñez Meneses,Laura Catalina	|
+|	46	|	Rosero Fernandez,Juan Sebastian	|
+|	47	|	Segura Hoyos,Carlos Andres	|
+|	48	|	Silva Vinasco,Santiago	|
+|	49	|	Unigarro Pabon,Juan Daniel	|
+
+
 
 <br/><br/>
 
-## **Tabla3**
+## **Asignación modelo**
 
-### **Asignación de distribución por id**
+### **Tabla 3 : Asignación de distribución por id**
 
-<!-- |	id   |  modelo| id   |modelo  | id   |modelo  | -->
-<!-- |:----:|:------:|:----:|:------:|:----:|:------:| -->
-<!-- |	1	   |	9	    |	13	 |	10	  |	25	 |	10	  | -->
-<!-- |	2	   |	14	  |	14 	 |	15	  |	26	 |	1	    | -->
-<!-- |	3	   |	11	  |	15	 |	1	    |	27	 |	5	    | -->
-<!-- |	4	   |	2	    |	16	 |	2	    |	28	 |	8   	| -->
-<!-- |	5  	 |	7	    |	17	 |	9	    |	29	 |	3	    | -->
-<!-- |	6	   |	3	    |	18	 |	12	  |	30	 |	11	  | -->
-<!-- |	7	   |	16	  |	19	 |	4	    |	31	 |	12  	| -->
-<!-- |	8	   |	4	    |	20	 |	7	    |	32	 |	5	    | -->
-<!-- |	9	   |	16	  |	21	 |	6	    |	33	 |	7	    | -->
-<!-- |	10	 |	3	    |	22	 |	15	  |	34	 |	14 	  | -->
-<!-- |	11	 |	6	    |	23	 |	13	  |	35	 |	5	    | -->
-<!-- |	12	 |	8	    |	24	 |	1	    |	36	 |	13	  | -->
-<!-- |      |        |      |        | 37   |   8    | -->
+|	id   |  modelo| id   |modelo  | id   |modelo  |  id    |modelo  |
+|:----:|:------:|:----:|:------:|:----:|:------:|:------:|:------:|
+|	1	   |	9	    |	13	 |	10	  |	25	 |	10	  |  37    |  7     |
+|	2	   |	14	  |	14 	 |	15	  |	26	 |	1	    |  38    |  2     |
+|	3	   |	11	  |	15	 |	1	    |	27	 |	5	    |  39    |  3     |
+|	4	   |	2	    |	16	 |	2	    |	28	 |	8   	|  40    |  5     |
+|	5  	 |	7	    |	17	 |	9	    |	29	 |	3	    |  41    | 12     |
+|	6	   |	3	    |	18	 |	12	  |	30	 |	11	  |  42    |  8     |
+|	7	   |	16	  |	19	 |	4	    |	31	 |	12  	|  43    | 13     |
+|	8	   |	4	    |	20	 |	7	    |	32	 |	5	    |  44    |  9     |
+|	9	   |	16	  |	21	 |	6	    |	33	 |	7	    |  45    | 14     |
+|	10	 |	3	    |	22	 |	15	  |	34	 |	14 	  |  46    | 15     |
+|	11	 |	6	    |	23	 |	13	  |	35	 |	5	    |  47    | 16     |
+|	12	 |	8	    |	24	 |	1	    |	36	 |	13	  |  48    |  6     |
+|      |        |      |        | 37   |   8    |  49    | 10     |
 
 
 <br/><br/>
 
-<!-- **Nota**:  -->
+**Nota**:
 
-<!-- Como ejemplo da la asignación de los modelos, el **id = 1** corresponde al primer estudiante de la **Tabla 2** le corresponde el **modelo 9 : gamma** de la **Tabla 1**. Lo cual indica que a Emerson Ramirez le corresponde realizar un artículo sobre el modelo gamma -->
-
+Como ejemplo da la asignación de los modelos, el **id = 1** corresponde al primer estudiante de la **Tabla 2**  (Pedroza Barrios,Edinson Steve)  al cual le corresponde el **modelo 9** : gamma** de la **Tabla 1**. Lo cual indica que a  le corresponde realizar un poster sobre el modelo gamma
 
 
 

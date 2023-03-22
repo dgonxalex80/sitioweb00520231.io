@@ -145,22 +145,64 @@ e. Construya una gráfica de probabilidad normal para el número total de partes
 
 Ejercicios tomados de Navidi(2006)
 
-<br/><br/>
+<br/><br/><br/><br/>
 
 # **Asignación de problemas**
 
-<!-- | id         |problema |id       |problema |id         | problema  | -->
-<!-- |-----------:|:-------:|:-------:|:-------:|:---------:|:---------:|  -->
-<!-- | #8942601 	 | 1       | #8950623|  4      | #8959566  |	2        | -->
-<!-- | #8943452	 | 2	     | #8953986| 	5      | #8960388	 |  3        | -->
-<!-- | #8952608	 | 3	     | #8956419|	1 	   | #8960737	 |  4        | -->
-<!-- | #8954056	 | 4	     | #8956654|	2 	   | #8961366	 |  5        | -->
-<!-- | #8955425	 | 5	     | #8957862| 	3  	   | #8962126	 |  1        | -->
-<!-- | #8956583	 | 1	     | #8957920|	4 	   | #8962328	 |  2        | -->
-<!-- | #8956630	 | 2	     | #8958068|	5 	   | #8962362	 |  3        | -->
-<!-- | #8959875	 | 3	     | #8958098|	1 	   | #8963790	 |  4        | -->
-<!-- | #8960928	 | 4	     | #8958167|	2 	   | #8964251	 |  5        | -->
-<!-- | #8965113	 | 5	     | #8958428|	3	     | #8965006	 |  1        | -->
-<!-- | #8935723	 | 1       | #8958434|	4      | #8967474	 |  2        | -->
-<!-- | #8935991	 | 2	     | #8958636|	5      |           |           |		 -->
-<!-- | #8949815	 | 3	     | #8959024|	1      |           |           |	 -->
+|	id	|	nombre                    	|	problema1	|	problama2	|
+|----:|:----------------------------|:---------:|:---------:|
+|	1	|	Pedroza Barrios,Edinson Steve	|	5	|	2	|
+|	2	|	Abadia Caballero,Carlos Adolfo	|	4	|	1	|
+|	3	|	Arcila Avirama,Santiago	|	2	|	5	|
+|	4	|	Aristizabal Figueroa,Duvan Esteban	|	2	|	3	|
+|	5	|	Aristizabal Murillo,Juan Sebastian	|	4	|	2	|
+|	6	|	Bejarano Osorio,Anny Victoria	|	2	|	3	|
+|	7	|	Benavides Ocampo,Laura Sofia	|	4	|	3	|
+|	8	|	Bolaños Santacruz,Santiago	|	1	|	2	|
+|	9	|	Buitrago Orozco,Maria Jose	|	1	|	3	|
+|	10	|	Cabrera Cardona,Darwin	|	3	|	1	|
+|	11	|	Chavarriaga Delgadillo,Valentina	|	1	|	2	|
+|	12	|	Diaz Sarabia,Denisse Valentina	|	5	|	4	|
+|	13	|	Gomez Cifuentes,Diego Francisco	|	3	|	2	|
+|	14	|	Gomez Pavajeau,Marianne	|	4	|	5	|
+|	15	|	Gonzalez Noreña,Juan Pablo	|	5	|	3	|
+|	16	|	Herrera Viveros,Fulvio Alexander	|	3	|	1	|
+|	17	|	Martinez Luque,Juan Esteban	|	3	|	2	|
+|	18	|	Mendez Camelo,Juan Jose	|	1	|	3	|
+|	19	|	Monroy Lasso,Juan	|	2	|	3	|
+|	20	|	Montero Guzman,Marlon Damian	|	3	|	5	|
+|	21	|	Ortega Bastidas,Santiago	|	4	|	2	|
+|	22	|	Perez Roman,Kevin	|	2	|	3	|
+|	23	|	Peña,Yony Alejandro	|	2	|	5	|
+|	24	|	Ramírez Salazar,Katherine	|	1	|	5	|
+|	25	|	Restrepo Maldonado,Karol Daniela	|	3	|	4	|
+|	26	|	Rojas Gomez,Maria Camila	|	5	|	3	|
+|	27	|	Saya Home,Maria Camila	|	5	|	3	|
+|	28	|	Taborda Madrid,Jhon Alejandro	|	5	|	1	|
+|	29	|	Valencia Rojas,Sebastian	|	3	|	4	|
+|	30	|	Vasquez Campiño,Maria Natalia	|	3	|	2	|
+|	31	|	Vergara Burbano,Fabio	|	2	|	4	|
+|	32	|	Avila Preciado,Ashley Karoline	|	3	|	1	|
+|	33	|	Bados Armero,Miguel Angel	|	5	|	1	|
+|	34	|	Bernal Castillo,Maria Camila	|	3	|	4	|
+|	35	|	Burgos Alvarez,Brayan Alexander	|	5	|	4	|
+|	36	|	Castaño Rueda,Allison Tatiana	|	5	|	3	|
+|	37	|	Duque Gonzalez,Juan Jose	|	1	|	4	|
+|	38	|	Gomez Paz,Santiago	|	3	|	5	|
+|	39	|	Gualdron Lopez,Diego Alejandro	|	2	|	4	|
+|	40	|	Legarda Betancourth,Deivy Hernan	|	1	|	3	|
+|	41	|	Londoño Arciniegas,Mateo	|	4	|	3	|
+|	42	|	Muñoz Sanchez,Juan Fernando	|	2	|	4	|
+|	43	|	Ocoro Perez,Juan Tomas	|	1	|	3	|
+|	44	|	Ordoñez Loboa,Juan Alejandro	|	1	|	4	|
+|	45	|	Ordoñez Meneses,Laura Catalina	|	3	|	5	|
+|	46	|	Rosero Fernandez,Juan Sebastian	|	3	|	5	|
+|	47	|	Segura Hoyos,Carlos Andres	|	4	|	1	|
+|	48	|	Silva Vinasco,Santiago	|	2	|	1	|
+|	49	|	Unigarro Pabon,Juan Daniel	|	2	|	4	|
+
+
+
+
+
+
