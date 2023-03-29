@@ -353,4 +353,15 @@ persp(x,y,z,theta=20, phi=15,
       col="#007FFF")
 ```
 
+```{r}
+library(plotly)
+
+x <- seq(0, 1, length.out = 100)
+y <- seq(0, 1, length.out = 100)
+z <- outer(x, y, function(x,y) ifelse(x+y<=1, 24*x*y, NA))
+
+fig <- plot_ly(x = x, y = y, z = z, type = "surface")
+fig <- fig %>% layout(scene = list(xaxis = list(title = "x"), yaxis = list(title = "y"), zaxis = list(title = "f(x,y)")))
+fig
+```
 
