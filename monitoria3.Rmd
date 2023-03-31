@@ -1457,4 +1457,76 @@ download_link(
 )
 ```
 
+<br/><br/>
+
+# **Examen parcial 2020**
+
+<br/><br/>
+
+## **1**
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("img/p1_parcial2.png")
+```
+
+<br/><br/>
+
+## **2**
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("img/p2_parcial2.png")
+```
+
+
+<br/><br/>
+
+## **3**
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("img/p3_parcial2.png")
+```
+
+
+<br/><br/>
+
+## **4**
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("img/p4_parcial2.png")
+```
+
+
+<br/><br/>
+
+## **5**
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("img/p5_parcial2.png")
+```
+
+<br/><br/>
+
+## **6**
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("img/p6_parcial2.png")
+```
+
+<br/><br/>
+
+## **7**
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("img/p7_parcial2.png")
+```
+
+<br/><br/>
+
+## **8**
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("img/p8_parcial2.png")
+```
+
+<br/><br/>
+
+## **9**
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("img/p9_parcial2.png")
+```
+
+<br/><br/>
+
 

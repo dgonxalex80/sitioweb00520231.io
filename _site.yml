@@ -128,7 +128,7 @@ navbar:
           href: recurso000.html          
         - text: "---------"          
         - text: "Recursos 4.1"
-          href: recurso000.html 
+          href: recurso401.html 
         - text: "Recursos 4.2"
           href: recurso000.html 
         - text: "Recursos 4.3"
@@ -138,7 +138,7 @@ navbar:
           href: recurso000.html 
         - text: "---------"   
         - text: "Código 4.1"
-          href: recurso000.html 
+          href: codigo401.html 
         - text: "Código 4.2"
           href: recurso000.html 
         - text: "Código 4.3"
