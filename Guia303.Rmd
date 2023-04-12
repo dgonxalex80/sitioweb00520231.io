@@ -64,8 +64,8 @@ Para alcanzar los objetivos planteados se propone realizar las siguientes activi
 |:----------------|:------------------------------------------------------------------------|
 |[**Actividad 331**](https://dgonxalex80.github.io/sitioweb00520231.io/Actividad331.html)   |            |    
 |**Poster**       | Construir un poster en formato A1 (841x594)  para el modelo asignado que contenga sus principales características   |
-|Fechas           | abril  10 de 2023 (fecha de revisión por pares)                         |            
-|                 | abril 12 de 2023 (entrega y presentación)                               |
+|Fechas           | abril  12 de 2023 (fecha de revisión por pares)                         |            
+|                 | abril 14 de 2023 (entrega y presentación)                               |
 |Hora             | segun horario de clase                                                  |
 
 
@@ -77,7 +77,7 @@ Los documentos construidos por todos serán publicados en una página para la re
 |:---------------|:------------------------------------------------------------------------|
 |[**Activiad 332**](https://dgonxalex80.github.io/sitioweb00520231.io/Actividad332.html) | De manera individual deberá resolver lo problemas asignado   con ayuda computacional. La presentacion de los resultados acompañados de los enunciados se debe publicar en **RPub**. Su enlace copiado en la **actividad 331** de la plataforma **Bs**                                         |
 |               | Trabajo individual                                                      |
-|Fecha          | 2 de abril                                                             |
+|Fecha          | 17 de abril                                                             |
 |Hora           | 23:59                                                                   |
 
 <br/><br/>
