@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE, comment = NA)
 
 library(readr)
-Valle <- read_csv("data/VALLE.csv")
+# Valle <- read_csv("data/VALLE.csv")
 
 # colores
 c0= "#b0394a"
