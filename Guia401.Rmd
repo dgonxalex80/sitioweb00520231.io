@@ -66,8 +66,8 @@ Para alcanzar los objetivos planteados se propone realizar las siguientes activi
 |**Actividad411**        | Construya un mapa mental **a mano** con que contenga el siguiente grupo de palabras : **población, parámetro, censo, muestra, muestreo, muestreo probabilistico, muestreo no probabilistico, muestreo aleatorio simple, muestreo aleatorio estratificado, muestreo por conglomerados, muestreo por juicio, muestreo por conveniciencia, muestreo bola de nieve, estimador puntual, estimador insesgado, estimador consistente, estimador eficiente, estimación por intervalos de confianza, pruebas de hipotesis** |
 |Trabajo  individual |    |
 |Recursos | [Tablero](https://padlet.com/dgonzalez80/lijxz9p7nvz5mm2q)  realizado por 300MAE005 A 2020-2 |
-|Fecha    | octubre  17  |
-|Hora     | 23:59     |
+|Fecha    | 21de abril  |
+|Hora     | al finalizar la sesión     |
 |         |           |
 |         |           |
 
