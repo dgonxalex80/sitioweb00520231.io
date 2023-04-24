@@ -54,7 +54,7 @@ que le permita seleccionar la mejor alternativa para la estimación de un parám
 
 ## **Duración**
 
-La presente  unidad será desarrollada del 17 al 23 de octubre 2022 . Ademas del material suministrado  contaran con el acompañamiento del profesor durante las sesiones de clase  y de manera asincrónica con  foro de actividades académicas. Los entegables para esta unidad podrán enviarse a través de la plataforma Brightspace hasta el  24 de octubre de 2022 
+La presente  unidad será desarrollada del 24 de abril  al 01  de mayo  2023 . Ademas del material suministrado  contaran con el acompañamiento del profesor durante las sesiones de clase  y de manera asincrónica con  foro de actividades académicas. Los entegables para esta unidad podrán enviarse a través de la plataforma Brightspace hasta el  01 de mayo  de 2023 
 
 Para alcanzar los objetivos planteados se propone realizar las siguientes actividades
 
@@ -67,11 +67,11 @@ Para alcanzar los objetivos planteados se propone realizar las siguientes activi
 |:--------------|:-----------------------------  |
 |**Actividad 421**    |Construir un **mapa mental** sobre **intervalos de confianza**  en formato pdf|
 |Trabajo individual |  |
-|Fecha          | 24 de octubre de 2022 |
+|Fecha          | 01  de mayo de 2023 |
 |Hora           | 23:59 hora local       |
 |**Actividad 422**    |Resuelva las preguntas y problemas planteadas en  el  [**Taller 422**](https://dgonxalex80.github.io/pye20222/Taller422.html) y entregue su solución  en formato  pdf en el enlace correspondiente de  Brightspace|
 |Trabajo individual |  |
-|Fecha          | 24 de octubre de 2022 |
+|Fecha          | 01  de mayo de 2023 |
 |Hora           | 23:59 hora local       |
 
 
