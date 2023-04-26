@@ -832,8 +832,17 @@ tags$iframe(
   width = "100%",
   height = "500"
 )
-
-
 ```
 
 
+# Solucion taller IC
+
+```{r, echo=FALSE}
+library(htmltools)
+
+tags$iframe(
+  src = "pdf/STaller_Intervalos_de_confianza.pdf",
+  width = "100%",
+  height = "500"
+)
+```
