@@ -829,8 +829,8 @@ library(htmltools)
 
 tags$iframe(
   src = "pdf/P-IC1.pdf",
-  width = "100%",
-  height = "500"
+  width = "100%",  
+  height = "500"  
 )
 ```
 
@@ -843,6 +843,6 @@ library(htmltools)
 tags$iframe(
   src = "pdf/STaller_Intervalos_de_confianza.pdf",
   width = "100%",
-  height = "500"
+  height = "844"
 )
 ```
