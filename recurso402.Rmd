@@ -835,7 +835,7 @@ tags$iframe(
 ```
 
 
-# Solucion taller IC
+# **Solución taller IC**
 
 ```{r, echo=FALSE}
 library(htmltools)
