@@ -42,7 +42,7 @@ base_muestreo <- read_delim("data/base_muestreo.csv",
 ![](img/banner4.png)
 
 
-## **Estimación por IC**
+# **Estimación por IC**
 
 
 ```{r, echo=FALSE, out.width="40%", fig.align = "center"}
@@ -57,11 +57,11 @@ Un estimador por intervalo de confianza (IC) es una regla que especifica como us
 
 <br/><br/><br/><br/>
 
-## **Una población**
+# **Una población**
 
 <br/><br/><br/>
 
-### **Intervalos de confianza para la media, con varianza conocida** 
+## **Intervalos de confianza para la media, con varianza conocida** 
 
 Partimos de dos valores que contiene el parámetro $\theta$
 
@@ -98,7 +98,7 @@ Supuestos:
 			
 <br/><br/><br/>
 
-### **Intervalo de confianza para la media, con varianza desconocida**
+## **Intervalo de confianza para la media, con varianza desconocida**
 	
 $$T=\dfrac{\bar{X}-\mu}{s/ \sqrt{n}}$$
 
@@ -167,7 +167,7 @@ El tiempo promedio transcurrido entre la facturación y el pago en la empresa es
 
 <br/><br/><br/>
 
-### **Tamaño de la muestra para estimar una media**
+## **Tamaño de la muestra para estimar una media**
 
 Uno de los problemas más frecuentes a los que nos enfrentamos es la determinación del tamaño de la muestra para realizar una estimación de la media que garantice una confianza del $(1-\alpha)\%$
 
@@ -221,7 +221,7 @@ round(n,0)  # redondeo a entero
 
 <br/><br/><br/>
 
-### **Intervalos de confianza para la proporción** 
+## **Intervalos de confianza para la proporción** 
 
 La construcción del intervalo de confianza para una proporción es similar al proceso realizado en la construcción de la media, bajo el supuesto de $np>10$ que permite la aproximación a una distribución normal
 
@@ -262,7 +262,7 @@ De acuerdo con el resultado anterior, se puede afirmar con una confianza del 95%
 <br/><br/><br/>
 
 
-### **Tamaño de muestra para la estimación de una proporción**
+## **Tamaño de muestra para la estimación de una proporción**
 
 $$n=\dfrac{z_{\alpha/2}^{2}\hspace{.3cm} p(1-p)}{e^{2}}$$
 Donde :
@@ -301,7 +301,7 @@ De acuerdo con la información sumunistrada por la empresa, el tamaño de muestr
   
 <br/><br/><br/>
 
-### **Intervalos de confianza para la varianza** 
+## **Intervalos de confianza para la varianza** 
 
 En el caso del intervalo de confianza para la varianza se parte de la premisa de que la variable
 
@@ -353,7 +353,7 @@ Se estima con una confianza del 95% que la desviación estándar del precio de l
 
 <br/><br/>
 
-### **Estimación de intervalos de confianza para comparación de dos poblaciones**
+## **Estimación de intervalos de confianza para comparación de dos poblaciones**
 
 Cuando se compraran dos poblaciones se puede estar interesado en la diferencia de medias, diferencia de proporciones o la razón de varianzas. Es necesario distinguir cuando se trata de diferencia de medias pareadas o diferencia para poblaciones independientes.
 
@@ -397,7 +397,7 @@ Se puede afirmar que la diferencia entre los promedios de los peso antes y despu
 
 <br/><br/><br/>
 
-### **Diferencia de medias poblaciones independientes** 
+## **Diferencia de medias poblaciones independientes** 
 
 <br/><br/>
 
@@ -523,7 +523,7 @@ En cualquiera de los casos los resultados pueden generar que intervalo sea de la
 	
 <br/><br/><br/>
 
-### **Diferencia de proporciones**
+## **Diferencia de proporciones**
 
 <br/><br/>
 
@@ -589,7 +589,7 @@ En cualquiera de los casos los resultados pueden generar que intervalo sea de la
 
 <br/><br/><br/>
 
-### **Comparación de varianzas** 
+## **Comparación de varianzas** 
 
 <br/><br/>
 
@@ -607,7 +607,7 @@ $$\Bigg(\dfrac{s^{2}_{1}}{s^{2}_{2}} \dfrac{1}{f_{1-\alpha/2}(v_{1}v_{2})}; \dfr
 
 <br/><br/><br/>
 
-## **Intervalos no paramétricos**
+# **Intervalos no paramétricos**
 
 Cuando se extrae una muestra de una población que no es normal y se requiere estimar un intervalo de confianza se pueden utilizar los métodos de estimación **bootstrap**. Existen varias versiones del método. Una presentación básica del método se describe a continuación:
 
@@ -680,7 +680,7 @@ Este valor se integra al concepto de intervalo de confianza mediante el término
 
 <br/><br/><br/>
 
-### **Grados de libertad**
+## **Grados de libertad**
 
 Una definicion de grados de libertad encontrada: [¿Qué son los llamados “grados de libertad”?](https://psicologiaexperimental.files.wordpress.com/2010/04/grados-de-libertad.pdf) escrito por : Roberto Behar y Pere Grima, los define como el número de dimensiones en los que se puede mover un valor por asignar. En el caso de una variable X, solo tenemos un grado de libertad para asignar este valor. En el caso de tener una variable bidimensional (X,Y), al momento de asignar valores a esta variable tenemos dos dimensiones = dos grados de libertad. Sin embargo que colocamos la restricción de que X+Y=10, perdemos un grado de libertad, dado que al colocar el primero, el segundo queda asignado por la restricción.
 
@@ -709,7 +709,7 @@ Como ejemplo supongamos que tenemos una muestras de datos formado por : $X_{1}$,
 
 <br/><br/><br/>
 
-## **Tamaño de muestra**                                                            
+# **Tamaño de muestra**                                                            
 
 <br/><br/>
 
@@ -782,14 +782,14 @@ $$n = \dfrac{N n_{0}}{N+n_{0}-1}$$
 <br/><br/><br/><br/>
 
 
-## **Video**
+# **Video**
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5y7MJiPXIjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/><br/><br/><br/>
 
-## **Tutoriales**
+# **Tutoriales**
 
 <br/><br/>
 
