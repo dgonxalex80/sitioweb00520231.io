@@ -820,8 +820,11 @@ install_github("dgonxalex80/paqueteDEG", force = TRUE) # solo una vez
 learnr::run_tutorial("Taller-Intervalos2", "paqueteDEG")
 ```
 
+<br/><br/>
 
-```{r}
+# **Presentación**
+
+```{r, echo=FALSE}
 library(htmltools)
 
 tags$iframe(
