@@ -834,6 +834,7 @@ tags$iframe(
 )
 ```
 
+<br/><br/>
 
 # **Solución taller IC**
 

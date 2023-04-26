@@ -1503,12 +1503,12 @@ mx=apply(b,1,mean)                 # se calculan m medias por fila</code></pre>
 <pre class="r"><code>ic1=quantile(mx, probs=c(0.025, 0.975)) # se calcula IC método 1
 ic1</code></pre>
 <pre><code>    2.5%    97.5% 
-4.721429 6.470143 </code></pre>
+4.737107 6.405786 </code></pre>
 <p><br/><br/></p>
 <pre class="r"><code>ic2=c(2*mean(mx)-ic1[2], 2*mean(mx)-ic1[1]) # se calcula IC método 2
 ic2</code></pre>
 <pre><code>   97.5%     2.5% 
-4.595789 6.344503 </code></pre>
+4.583734 6.252413 </code></pre>
 <p><br/><br/></p>
 <pre class="r"><code>hist(mx, las=1, main=&quot; &quot;, ylab = &quot; &quot;, xlab = &quot; &quot;, col=c3)
 abline(v=ic1, col=&quot;red&quot;)
@@ -1882,6 +1882,7 @@ learnr::run_tutorial(&quot;Taller-Intervalos2&quot;, &quot;paqueteDEG&quot;)</co
 <div id="presentación" class="section level1">
 <h1><strong>Presentación</strong></h1>
 <iframe src="pdf/P-IC1.pdf" width="100%" height="500"></iframe>
+<p><br/><br/></p>
 </div>
 <div id="solución-taller-ic" class="section level1">
 <h1><strong>Solución taller IC</strong></h1>
