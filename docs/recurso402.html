@@ -1503,12 +1503,12 @@ mx=apply(b,1,mean)                 # se calculan m medias por fila</code></pre>
 <pre class="r"><code>ic1=quantile(mx, probs=c(0.025, 0.975)) # se calcula IC método 1
 ic1</code></pre>
 <pre><code>    2.5%    97.5% 
-4.737107 6.405786 </code></pre>
+4.674286 6.470250 </code></pre>
 <p><br/><br/></p>
 <pre class="r"><code>ic2=c(2*mean(mx)-ic1[2], 2*mean(mx)-ic1[1]) # se calcula IC método 2
 ic2</code></pre>
 <pre><code>   97.5%     2.5% 
-4.583734 6.252413 </code></pre>
+4.556936 6.352900 </code></pre>
 <p><br/><br/></p>
 <pre class="r"><code>hist(mx, las=1, main=&quot; &quot;, ylab = &quot; &quot;, xlab = &quot; &quot;, col=c3)
 abline(v=ic1, col=&quot;red&quot;)
@@ -1849,11 +1849,21 @@ align="left"><code>paqueteDEG::adjusted_size(385,2000) # adjusted_size(n,N)</cod
 <p><br/><br/><br/><br/></p>
 </div>
 </div>
-<div id="video" class="section level1">
-<h1><strong>Video</strong></h1>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5y7MJiPXIjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<div id="videos" class="section level1">
+<h1><strong>Videos</strong></h1>
+<div id="introducción-a-la-inferencia-estadística"
+class="section level2">
+<h2><strong>Introducción a la inferencia estadística</strong></h2>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/5WkEIGMPh0Q" frameborder="0" allowfullscreen>
+</iframe>
+<p><br/><br/><br/></p>
+</div>
+<div id="intervalos-de-confianza" class="section level2">
+<h2><strong>Intervalos de confianza</strong></h2>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/5y7MJiPXIjw" frameborder="0" allowfullscreen>
 </iframe>
 <p><br/><br/><br/><br/></p>
+</div>
 </div>
 <div id="tutoriales" class="section level1">
 <h1><strong>Tutoriales</strong></h1>
@@ -1887,6 +1897,18 @@ learnr::run_tutorial(&quot;Taller-Intervalos2&quot;, &quot;paqueteDEG&quot;)</co
 <div id="solución-taller-ic" class="section level1">
 <h1><strong>Solución taller IC</strong></h1>
 <iframe src="pdf/STaller_Intervalos_de_confianza.pdf" width="100%" height="844"></iframe>
+<!-- Nota : -->
+<!-- Como se calculan los parametros  -->
+<!-- 1. Calcula la proporción del ancho y alto del PDF en formato carta (relacion entre ancho/alto), que es de 8.5 pulgadas de ancho y 11 pulgadas de alto. La proporción es de 11/8.5 = 1.2941. -->
+<!-- 2. Calcula la altura en píxeles necesaria para mostrar todo el PDF en formato carta en la ventana. Para ello, multiplica el ancho del PDF en pulgadas por la proporción del paso 1 y luego multiplica por 96 píxeles por pulgada, que es la resolución predeterminada de la pantalla. La fórmula es: alto en píxeles = ancho en pulgadas * proporción * 96. -->
+<!-- 3. Utiliza el valor calculado en el paso anterior como valor del parámetro height en la función tags$iframe(). -->
+<!-- Por ejemplo, si tu PDF tiene un ancho de 7 pulgadas, puedes calcular la altura necesaria para mostrarlo completo en formato carta de la siguiente manera: -->
+<!-- alto en píxeles = 7 * 1.2941 * 96 = 844 -->
+<!-- tags$iframe( -->
+<!--   src = "ruta/a/tu/archivo.pdf", -->
+<!--   width = "100%", -->
+<!--   height = "844" -->
+<!-- ) -->
 </div>
 
 

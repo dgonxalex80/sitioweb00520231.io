@@ -782,10 +782,35 @@ $$n = \dfrac{N n_{0}}{N+n_{0}-1}$$
 <br/><br/><br/><br/>
 
 
-# **Video**
+# **Videos**
+
+## **Introducción a la inferencia estadística**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+# Copia y pega el enlace del video de YouTube aquí:
+url <- "https://www.youtube.com/embed/5WkEIGMPh0Q"
+
+# Incrusta el video en una ventana de 800x450:
+cat(sprintf('<iframe width="%s" height="%s" src="%s" frameborder="0" allowfullscreen></iframe>',
+            800, 450, url))
+
+```
+
+<br/><br/><br/>
+
+## **Intervalos de confianza**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+# Copia y pega el enlace del video de YouTube aquí:
+url <- "https://www.youtube.com/embed/5y7MJiPXIjw"
+
+# Incrusta el video en una ventana de 800x450:
+cat(sprintf('<iframe width="%s" height="%s" src="%s" frameborder="0" allowfullscreen></iframe>',
+            800, 450, url))
+
+```
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5y7MJiPXIjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/><br/><br/><br/>
 
@@ -847,3 +872,28 @@ tags$iframe(
   height = "844"
 )
 ```
+
+
+
+
+<!-- Nota : -->
+<!-- Como se calculan los parametros  -->
+
+<!-- 1. Calcula la proporción del ancho y alto del PDF en formato carta (relacion entre ancho/alto), que es de 8.5 pulgadas de ancho y 11 pulgadas de alto. La proporción es de 11/8.5 = 1.2941. -->
+
+<!-- 2. Calcula la altura en píxeles necesaria para mostrar todo el PDF en formato carta en la ventana. Para ello, multiplica el ancho del PDF en pulgadas por la proporción del paso 1 y luego multiplica por 96 píxeles por pulgada, que es la resolución predeterminada de la pantalla. La fórmula es: alto en píxeles = ancho en pulgadas * proporción * 96. -->
+
+<!-- 3. Utiliza el valor calculado en el paso anterior como valor del parámetro height en la función tags$iframe(). -->
+
+<!-- Por ejemplo, si tu PDF tiene un ancho de 7 pulgadas, puedes calcular la altura necesaria para mostrarlo completo en formato carta de la siguiente manera: -->
+
+<!-- alto en píxeles = 7 * 1.2941 * 96 = 844 -->
+
+<!-- tags$iframe( -->
+<!--   src = "ruta/a/tu/archivo.pdf", -->
+<!--   width = "100%", -->
+<!--   height = "844" -->
+<!-- ) -->
+
+
+
