@@ -93,7 +93,7 @@ Hora : 23.59
 
 Adicional del informe anterior:
 
-   * Ficha tecnica de la información
+   * Ficha técnica de la información
 
    * Análisis descriptivo de la información
 
@@ -121,6 +121,18 @@ Fecha: mayo 19 de mayo de 2023 <br/>
 + [trello- tablero para la gestión de proyectos](https://trello.com/es/tour) : Metodogía Kamban (tablero Kamban)
 
 <br/><br/>
+
+
+
+## **Nota**
+
+El proyecto se puede basar en los datos contenidos en las plataformas de bases de datos abiertos como:
+
+* [**Datos abiertos Colombia**](https://www.datos.gov.co/)
+* [**kaggle**](https://www.kaggle.com/)
+* [**Biología: Bases de datos**](https://biblioguias.uam.es/biologia/bases_datos)
+* [**Tabla de repositorios de datos abiertos** ](https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/noticias/Tabla%20de%20Repositorios%20de%20datos%20abiertos_0.pdf)
+
 
 <!-- ## **Criterios de evaluación** -->
 
