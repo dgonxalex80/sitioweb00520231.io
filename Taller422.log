@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.25)  2 MAY 2023 16:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.25)  5 MAY 2023 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -577,19 +577,9 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 84.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-<Taller422_files/figure-latex/unnamed-chunk-1-1.pdf, id=4, 412.54124pt x 253.94
-875pt>
-File: Taller422_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type pdf
-)
-<use Taller422_files/figure-latex/unnamed-chunk-1-1.pdf>
-Package pdftex.def Info: Taller422_files/figure-latex/unnamed-chunk-1-1.pdf  us
-ed on input line 193.
-(pdftex.def)             Requested size: 412.54652pt x 253.95198pt.
-[1
+) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./Taller422_files/figu
-re-latex/unnamed-chunk-1-1.pdf>] [3]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 
 ! LaTeX Error: Unicode character − (U+2212)
                not set up for use with LaTeX.
@@ -598,15 +588,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.436 ...t.test(x,\ coef.level=\ 1−a)\$conf.int}
+l.489 ...t.test(x,\ coef.level=\ 1−a)\$conf.int}
                                                    \\ 
 Here is how much of TeX's memory you used:
- 14223 strings out of 478287
- 225151 string characters out of 5849288
- 558746 words of memory out of 5000000
- 32069 multiletter control sequences out of 15000+600000
- 516000 words of font info for 112 fonts, out of 8000000 for 9000
+ 14218 strings out of 478287
+ 224795 string characters out of 5849288
+ 560746 words of memory out of 5000000
+ 32065 multiletter control sequences out of 15000+600000
+ 516319 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,7n,77p,1006b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,7n,77p,1006b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 !  ==> Fatal error occurred, no output PDF file produced!
