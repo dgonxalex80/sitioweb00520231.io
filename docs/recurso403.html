@@ -2533,7 +2533,7 @@ plot(density(x), main=&quot; &quot;, las=1, xlab = &quot; &quot;, ylab=&quot; &q
     Shapiro-Wilk normality test
 
 data:  x
-W = 0.99389, p-value = 0.585</code></pre>
+W = 0.99516, p-value = 0.7728</code></pre>
 <p>Esta prueba no requiere la instalación de paquetes adicionales, pues
 está disponible en la configuración básica de R</p>
 <p>Como el valor-p es superior al nivel de significancia <span
@@ -2547,39 +2547,14 @@ variable es normal.</p>
 <pre class="r"><code># install.packages(&quot;normtets&quot;)
  library(normtest)
 
-jb.norm.test(x)  # Test de normalidad de Jarque-Bera</code></pre>
-<pre><code>
-    Jarque-Bera test for normality
-
-data:  x
-JB = 1.2172, p-value = 0.5095</code></pre>
-<pre class="r"><code>kurtosis.norm.test(x)</code></pre>
-<pre><code>
-    Kurtosis test for normality
-
-data:  x
-T = 2.6226, p-value = 0.242</code></pre>
-<pre class="r"><code>skewness.norm.test(x)   </code></pre>
-<pre><code>
-    Skewness test for normality
-
-data:  x
-T = 0.0303, p-value = 0.8505</code></pre>
+jb.norm.test(x)  # Test de normalidad de Jarque-Bera
+kurtosis.norm.test(x)
+skewness.norm.test(x)   </code></pre>
 <pre class="r"><code># install.packages(&quot;nortets&quot;)
 library(nortest)
 
-lillie.test(x) # Kolmogorov-Smirnov</code></pre>
-<pre><code>
-    Lilliefors (Kolmogorov-Smirnov) normality test
-
-data:  x
-D = 0.037823, p-value = 0.6924</code></pre>
-<pre class="r"><code>pearson.test(x) # chi-cuadrado de Pearson</code></pre>
-<pre><code>
-    Pearson chi-square normality test
-
-data:  x
-P = 16.75, p-value = 0.2697</code></pre>
+lillie.test(x) # Kolmogorov-Smirnov
+pearson.test(x) # chi-cuadrado de Pearson</code></pre>
 <p><br/><br/></p>
 <p><br/><br/><br/><br/></p>
 </div>
@@ -3048,6 +3023,10 @@ class="uri">https://cran.r-project.org/web/views/Distributions.html</a></p>
 <div id="presentación" class="section level1">
 <h1><strong>Presentación</strong></h1>
 <iframe src="pdf/P-PruebasH.pdf" width="100%" height="500"></iframe>
+</div>
+<div id="taller-435" class="section level1">
+<h1><strong>Taller 435</strong></h1>
+<iframe src="pdf/Taller435.pdf" width="100%" height="800"></iframe>
 </div>
 
 
