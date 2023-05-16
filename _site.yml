@@ -146,6 +146,9 @@ navbar:
         - text: "---------"            
         - text: "Taller 421"
           href: Taller422.html   
+        - text: "Taller 435"
+          href: Taller435.html            
+          
     - text: "Módulo 5"
       menu:
         - text: "Módulo 5"

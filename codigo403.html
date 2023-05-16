@@ -556,6 +556,9 @@ div.tocify {
     <li>
       <a href="Taller422.html">Taller 421</a>
     </li>
+    <li>
+      <a href="Taller435.html">Taller 435</a>
+    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -1110,88 +1113,38 @@ disponible en la configuración básica de R</p>
 <p><strong>Paquete normtest</strong></p>
 <p>Las siguientes pruebas requieren instalar y cargar el paquete:
 <code>normtest</code></p>
-<pre class="r"><code># install.packages(&quot;normtets&quot;)
+<pre class="r"><code> install.packages(&quot;normtets&quot;)
 library(normtest)</code></pre>
 <p><br/><br/></p>
 <p><strong>Jarque-Bera ajustado</strong></p>
 <pre class="r"><code>ajb.norm.test(x)    </code></pre>
-<pre><code>
-    Adjusted Jarque-Bera test for normality
-
-data:  x
-AJB = 1.8137, p-value = 0.372</code></pre>
 <p><br/><br/></p>
 <p><strong>Frosini</strong></p>
 <pre class="r"><code>frosini.norm.test(x)    </code></pre>
-<pre><code>
-    Frosini test for normality
-
-data:  x
-B = 0.2364, p-value = 0.1795</code></pre>
 <p><br/><br/></p>
 <p><strong>Geary</strong></p>
 <pre class="r"><code>geary.norm.test(x)  </code></pre>
-<pre><code>
-    Geary test for normality
-
-data:  x
-d = 0.81204, p-value = 0.1915</code></pre>
 <p><br/><br/></p>
 <p><strong>Hagazy-Green 1</strong></p>
 <pre class="r"><code>hegazy1.norm.test(x)    </code></pre>
-<pre><code>
-    Hegazy-Green test for normality
-
-data:  x
-T = 0.062356, p-value = 0.319</code></pre>
 <p><br/></p>
 <p><strong>Hagazy-Green 2</strong></p>
 <pre class="r"><code>hegazy2.norm.test(x)</code></pre>
-<pre><code>
-    Hegazy-Green test for normality
-
-data:  x
-T = 0.0061388, p-value = 0.5725</code></pre>
 <p><br/><br/></p>
 <p><strong>Jarque-Bera</strong></p>
 <pre class="r"><code>jb.norm.test(x) </code></pre>
-<pre><code>
-    Jarque-Bera test for normality
-
-data:  x
-JB = 1.8604, p-value = 0.338</code></pre>
 <p><br/><br/></p>
 <p><strong>de kurtosis</strong></p>
 <pre class="r"><code>kurtosis.norm.test(x)</code></pre>
-<pre><code>
-    Kurtosis test for normality
-
-data:  x
-T = 2.7446, p-value = 0.406</code></pre>
 <p><br/><br/></p>
 <p><strong>de sesgo</strong></p>
 <pre class="r"><code>skewness.norm.test(x)   </code></pre>
-<pre><code>
-    Skewness test for normality
-
-data:  x
-T = -0.19876, p-value = 0.252</code></pre>
 <p><br/><br/></p>
 <p><strong>Spiegelhalter</strong></p>
 <pre class="r"><code>spiegelhalter.norm.test(x)  </code></pre>
-<pre><code>
-    Spiegelhalter test for normality
-
-data:  x
-T = 1.2315, p-value = 0.813</code></pre>
 <p><br/><br/></p>
 <p><strong>Weisberg-Bingham</strong></p>
 <pre class="r"><code>wb.norm.test(x) </code></pre>
-<pre><code>
-    Weisberg-Bingham test for normality
-
-data:  x
-WB = 0.994, p-value = 0.5225</code></pre>
 <p><br/><br/><br/></p>
 <div id="paquete-nortest" class="section level3">
 <h3><strong>Paquete nortest</strong></h3>
@@ -1202,43 +1155,18 @@ WB = 0.994, p-value = 0.5225</code></pre>
 <p><br/></p>
 <p><strong>Anderson-Darling</strong></p>
 <pre class="r"><code>ad.test(x)</code></pre>
-<pre><code>
-    Anderson-Darling normality test
-
-data:  x
-A = 0.51942, p-value = 0.1848</code></pre>
 <p><br/></p>
 <p><strong>Cramer-von Mises</strong></p>
 <pre class="r"><code>cvm.test(x)</code></pre>
-<pre><code>
-    Cramer-von Mises normality test
-
-data:  x
-W = 0.10218, p-value = 0.1041</code></pre>
 <p><br/></p>
 <p><strong>Lilliefors (Kolmogorov-Smirnov)</strong></p>
 <pre class="r"><code>lillie.test(x)</code></pre>
-<pre><code>
-    Lilliefors (Kolmogorov-Smirnov) normality test
-
-data:  x
-D = 0.063283, p-value = 0.0497</code></pre>
 <p><br/></p>
 <p><strong>chi-cuadrado de Pearson</strong></p>
 <pre class="r"><code>pearson.test(x)</code></pre>
-<pre><code>
-    Pearson chi-square normality test
-
-data:  x
-P = 10.8, p-value = 0.7017</code></pre>
 <p><br/></p>
 <p><strong>Shapiro-Francia</strong></p>
 <pre class="r"><code>sf.test(x)</code></pre>
-<pre><code>
-    Shapiro-Francia normality test
-
-data:  x
-W = 0.994, p-value = 0.5198</code></pre>
 <p>En todos los casos se presenta un valor-p grande por lo cual no se
 rechaza <span class="math inline">\(Ho\)</span>, asumimos que <span
 class="math inline">\(Ho\)</span> es verdad. Asumimos que la

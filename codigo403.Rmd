@@ -334,8 +334,8 @@ Esta prueba no requiere la instalación de paquetes adicionales, está disponibl
 
 Las siguientes pruebas requieren instalar y cargar el paquete: `normtest`
 
-```{r}
-# install.packages("normtets")
+```{r,eval=FALSE}
+ install.packages("normtets")
 library(normtest)
 ```
 
@@ -343,7 +343,7 @@ library(normtest)
 
 **Jarque-Bera ajustado**
 
-```{r}
+```{r,eval=FALSE}
 ajb.norm.test(x)	
 ```
 
@@ -351,7 +351,7 @@ ajb.norm.test(x)
 
 **Frosini**
 
-```{r}
+```{r,eval=FALSE}
 frosini.norm.test(x)	
 ```
 
@@ -359,7 +359,7 @@ frosini.norm.test(x)
 
 **Geary**
 
-```{r}
+```{r,eval=FALSE}
 geary.norm.test(x)	
 ```
 
@@ -367,7 +367,7 @@ geary.norm.test(x)
 
 **Hagazy-Green 1**
 
-```{r}
+```{r,eval=FALSE}
 hegazy1.norm.test(x)	
 ```
 
@@ -375,7 +375,7 @@ hegazy1.norm.test(x)
 
 **Hagazy-Green 2**
 
-```{r}
+```{r,eval=FALSE}
 hegazy2.norm.test(x)
 ```
 
@@ -383,7 +383,7 @@ hegazy2.norm.test(x)
 
 **Jarque-Bera**
 
-```{r}
+```{r,eval=FALSE}
 jb.norm.test(x)	
 ```
 
@@ -391,7 +391,7 @@ jb.norm.test(x)
 
 **de kurtosis**
 
-```{r}
+```{r,eval=FALSE}
 kurtosis.norm.test(x)
 ```
 
@@ -399,7 +399,7 @@ kurtosis.norm.test(x)
 
 **de sesgo**
 
-```{r}
+```{r,eval=FALSE}
 skewness.norm.test(x)	
 ```
 
@@ -407,7 +407,7 @@ skewness.norm.test(x)
 
 **Spiegelhalter**
 
-```{r}
+```{r,eval=FALSE}
 spiegelhalter.norm.test(x)	
 ```
 
@@ -415,7 +415,7 @@ spiegelhalter.norm.test(x)
 
 **Weisberg-Bingham**
 
-```{r}
+```{r,eval=FALSE}
 wb.norm.test(x)	
 ```
 
@@ -425,7 +425,7 @@ wb.norm.test(x)
 
 Las siguientes pruebas requieren instalar y cargar el paquete: `nortest`
 
-```{r}
+```{r,eval=FALSE}
 # install.packages("nortets")
  library(nortest)
 ```
@@ -434,7 +434,7 @@ Las siguientes pruebas requieren instalar y cargar el paquete: `nortest`
 
 **Anderson-Darling**
 
-```{r}
+```{r,eval=FALSE}
 ad.test(x)
 ```
 
@@ -442,7 +442,7 @@ ad.test(x)
 
 **Cramer-von Mises**
 
-```{r}
+```{r,eval=FALSE}
 cvm.test(x)
 ```
 
@@ -451,7 +451,7 @@ cvm.test(x)
 
 **Lilliefors (Kolmogorov-Smirnov)**
 
-```{r}
+```{r,eval=FALSE}
 lillie.test(x)
 ```
 
@@ -459,7 +459,7 @@ lillie.test(x)
 
 **chi-cuadrado de Pearson**
 
-```{r}
+```{r,eval=FALSE}
 pearson.test(x)
 ```
 
@@ -467,7 +467,7 @@ pearson.test(x)
 
 **Shapiro-Francia**
 
-```{r}
+```{r,eval=FALSE}
 sf.test(x)
 ```
 
