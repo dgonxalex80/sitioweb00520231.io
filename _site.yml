@@ -145,7 +145,7 @@ navbar:
           href: recurso403.html 
         - text: "---------"            
         - text: "Taller 421"
-          href: Taller422.html   
+          href: recurso000.html 
         - text: "Taller 435"
           href: Taller435.html            
           
@@ -160,7 +160,7 @@ navbar:
           href: recurso000.html 
         - text: "---------"          
         - text: "Recursos 5.1"
-          href: recurso000.html 
+          href: recurso501.html 
         - text: "Recursos 5.2"
           href: recurso000.html 
         - text: "---------"            
@@ -168,7 +168,7 @@ navbar:
           href: recurso000.html 
         - text: "---------"           
         - text: "Código 5.1"
-          href: recurso000.html 
+          href: CODIGO501.html 
         - text: "Código 5.2"
           href: recurso000.html 
     - text: "Proyecto"
